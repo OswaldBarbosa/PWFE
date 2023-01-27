@@ -1,0 +1,103 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-UsPuro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 500px;
+    background-image: url("../images/UsPuro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.25);;
+}
+
+.UsPuro-title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 4rem;
+    font-weight: 400;
+    cursor: default;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    gap: 32px;
+}
+
+.esqueceu{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: right;
+    transition: all .2s;
+}
+
+.esqueceu:hover{
+    color: rgb(0, 4, 255);
+}
+
+#texto{
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+
+.botao-login{
+    border-radius: 5px;
+    background: linear-gradient(90deg, #A2E3FF 26.56%, #00B2FF 100%);
+    height: 52px;
+    width: 300px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+.container-cadastro{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 76px;
+}
+
+.link-cadastro{
+    font-weight: 700;
+    transition: all .2s;
+}
+
+.link-cadastro:hover{
+    color: rgb(0, 4, 255);
+}
+
+.from-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 86px;
+    cursor: default;
+}
+
+.from{
+    font-size: .75rem;
+}
+
+.uspuro{
+    font-size: 1.25rem;
+}
+
