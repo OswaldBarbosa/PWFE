@@ -32,7 +32,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 285px;
-    gap: 32px;
+    gap: 3.4151547491995733vh;
 }
 
 .esqueceu{
@@ -51,13 +51,15 @@ main{
     border-color: black;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: black;
+    width: 100%;
 }
 
 .botao-login{
     border-radius: 5px;
     background: linear-gradient(90deg, #A2E3FF 26.56%, #00B2FF 100%);
-    height: 52px;
-    width: 300px;
+    height: 5.549626467449306vh;
+    width: 100%;
+    max-width: 100%;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 30px;
@@ -72,7 +74,7 @@ main{
     gap: 5px;
     font-size: 1.25rem;
     font-weight: 400;
-    margin-top: 76px;
+    margin-top: 48px;
 }
 
 .link-cadastro{
@@ -89,7 +91,7 @@ main{
     flex-direction: column;
     align-items: center;
     font-weight: 400;
-    margin-top: 86px;
+    margin-top: 64px;
     cursor: default;
 }
 
@@ -101,3 +103,8 @@ main{
     font-size: 1.25rem;
 }
 
+@media (max-width: 640px){
+    .container-UsPuro{
+        height: 100%;
+    }
+}
