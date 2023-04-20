@@ -15,14 +15,14 @@ header{
     color: white;
 }
 
-.container{
+.card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 16px;
     padding: 16px;
 }
 
-.card{
+/* .card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,11 +34,11 @@ header{
     padding: 16px;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
-.card:houver{
+/* .card:houver{
     box-shadow: 0px 0px 8px blue;
-}
+} */
 
 .card__image{
     width: 200px;

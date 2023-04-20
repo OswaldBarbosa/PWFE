@@ -1,9 +1,10 @@
 'use script'
 
 import {produtos} from "./produtos.js"
+import {card} from "./card.js"
 
 const criarCard = (produto) => {
-    const card = document.createElement('div')
+    const card = document.createElement('card-produtos')
     card.classList.add('card')
 
     const foto = document.createElement('img')
